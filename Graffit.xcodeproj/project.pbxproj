@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124DE4E8693A6CD1049A604D /* Pods_Graffit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A03E0E80A6696511E334AD /* Pods_Graffit.framework */; };
+		C156864F274566A00026C0AA /* СharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C156864E274566A00026C0AA /* СharacterModel.swift */; };
+		C1568654274567D00026C0AA /* CharModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1568653274567D00026C0AA /* CharModel.swift */; };
+		C15686582745AD1B0026C0AA /* CharCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15686572745AD1B0026C0AA /* CharCellModel.swift */; };
+		C156865D2745AD800026C0AA /* CharCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C156865B2745AD800026C0AA /* CharCell.swift */; };
+		C156865E2745AD800026C0AA /* CharCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C156865C2745AD800026C0AA /* CharCell.xib */; };
+		C1AC8B3027444EB600393615 /* abosanovabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1AC8B2F27444EB600393615 /* abosanovabold.ttf */; };
+		C1AC8B322744528900393615 /* CreateTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC8B312744528900393615 /* CreateTeamVC.swift */; };
+		C1AC8B3527445A6000393615 /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC8B3427445A6000393615 /* CreateButton.swift */; };
+		C1AC8B3927445C1000393615 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC8B3827445C1000393615 /* Constants.swift */; };
+		C1AC8B3E27445E8600393615 /* EditTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC8B3D27445E8600393615 /* EditTeamVC.swift */; };
+		C1AC8B4327445FBC00393615 /* ViewTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC8B4227445FBC00393615 /* ViewTeamVC.swift */; };
+		C1AC8B482744647000393615 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC8B462744647000393615 /* TeamCell.swift */; };
+		C1AC8B492744647000393615 /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1AC8B472744647000393615 /* TeamCell.xib */; };
+		C1AC8B4C2744673400393615 /* TeamCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC8B4B2744673400393615 /* TeamCellModel.swift */; };
+		C1AC8B4F27446A7000393615 /* MenuLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC8B4E27446A7000393615 /* MenuLabel.swift */; };
+		C1AC8B542745491B00393615 /* BaseRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC8B532745491B00393615 /* BaseRequestProtocol.swift */; };
+		C1AC8B562745495C00393615 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC8B552745495C00393615 /* BaseRequest.swift */; };
+		C1AC8B5827454BAE00393615 /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC8B5727454BAE00393615 /* NetworkApi.swift */; };
+		C1F1B83C2743E3FA00782860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1B83B2743E3FA00782860 /* AppDelegate.swift */; };
+		C1F1B83E2743E3FA00782860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1B83D2743E3FA00782860 /* SceneDelegate.swift */; };
+		C1F1B8402743E3FA00782860 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1B83F2743E3FA00782860 /* MenuVC.swift */; };
+		C1F1B8432743E3FA00782860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F1B8412743E3FA00782860 /* Main.storyboard */; };
+		C1F1B8462743E3FA00782860 /* Graffit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1F1B8442743E3FA00782860 /* Graffit.xcdatamodeld */; };
+		C1F1B8482743E3FC00782860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F1B8472743E3FC00782860 /* Assets.xcassets */; };
+		C1F1B84B2743E3FC00782860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F1B8492743E3FC00782860 /* LaunchScreen.storyboard */; };
+		C1F1B8562743E3FC00782860 /* GraffitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1B8552743E3FC00782860 /* GraffitTests.swift */; };
+		C1F1B8602743E3FC00782860 /* GraffitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1B85F2743E3FC00782860 /* GraffitUITests.swift */; };
+		C1F1B8622743E3FC00782860 /* GraffitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1B8612743E3FC00782860 /* GraffitUITestsLaunchTests.swift */; };
+		DF17E3CDA6D6A6E619C7A982 /* Pods_GraffitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A468141746054E17325CC6 /* Pods_GraffitTests.framework */; };
+		E792F7CE6FCF623325F1FC14 /* Pods_Graffit_GraffitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A3508AA062428BF9A8F47B /* Pods_Graffit_GraffitUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1F1B8522743E3FC00782860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1F1B8302743E3FA00782860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F1B8372743E3FA00782860;
+			remoteInfo = Graffit;
+		};
+		C1F1B85C2743E3FC00782860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1F1B8302743E3FA00782860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F1B8372743E3FA00782860;
+			remoteInfo = Graffit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10033D4EFDB04B5B3E106128 /* Pods-Graffit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graffit.release.xcconfig"; path = "Target Support Files/Pods-Graffit/Pods-Graffit.release.xcconfig"; sourceTree = "<group>"; };
+		2BC76C456BF6BB7607921982 /* Pods-Graffit-GraffitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graffit-GraffitUITests.release.xcconfig"; path = "Target Support Files/Pods-Graffit-GraffitUITests/Pods-Graffit-GraffitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		40A468141746054E17325CC6 /* Pods_GraffitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraffitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5763A5393D520B72D2455F40 /* Pods-Graffit-GraffitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graffit-GraffitUITests.debug.xcconfig"; path = "Target Support Files/Pods-Graffit-GraffitUITests/Pods-Graffit-GraffitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		581EBBC14E51A62B5969B79C /* Pods-GraffitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraffitTests.release.xcconfig"; path = "Target Support Files/Pods-GraffitTests/Pods-GraffitTests.release.xcconfig"; sourceTree = "<group>"; };
+		74A03E0E80A6696511E334AD /* Pods_Graffit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Graffit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A3508AA062428BF9A8F47B /* Pods_Graffit_GraffitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Graffit_GraffitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9873B7A4884CAC32262146A8 /* Pods-Graffit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graffit.debug.xcconfig"; path = "Target Support Files/Pods-Graffit/Pods-Graffit.debug.xcconfig"; sourceTree = "<group>"; };
+		ABF87DC5FB726CE40A5564AE /* Pods-GraffitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraffitTests.debug.xcconfig"; path = "Target Support Files/Pods-GraffitTests/Pods-GraffitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C156864E274566A00026C0AA /* СharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СharacterModel.swift"; sourceTree = "<group>"; };
+		C1568653274567D00026C0AA /* CharModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharModel.swift; sourceTree = "<group>"; };
+		C15686572745AD1B0026C0AA /* CharCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharCellModel.swift; sourceTree = "<group>"; };
+		C156865B2745AD800026C0AA /* CharCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharCell.swift; sourceTree = "<group>"; };
+		C156865C2745AD800026C0AA /* CharCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharCell.xib; sourceTree = "<group>"; };
+		C1AC8B2F27444EB600393615 /* abosanovabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = abosanovabold.ttf; sourceTree = "<group>"; };
+		C1AC8B312744528900393615 /* CreateTeamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTeamVC.swift; sourceTree = "<group>"; };
+		C1AC8B3427445A6000393615 /* CreateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
+		C1AC8B3827445C1000393615 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C1AC8B3D27445E8600393615 /* EditTeamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTeamVC.swift; sourceTree = "<group>"; };
+		C1AC8B4227445FBC00393615 /* ViewTeamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTeamVC.swift; sourceTree = "<group>"; };
+		C1AC8B462744647000393615 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		C1AC8B472744647000393615 /* TeamCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
+		C1AC8B4B2744673400393615 /* TeamCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCellModel.swift; sourceTree = "<group>"; };
+		C1AC8B4E27446A7000393615 /* MenuLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLabel.swift; sourceTree = "<group>"; };
+		C1AC8B532745491B00393615 /* BaseRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequestProtocol.swift; sourceTree = "<group>"; };
+		C1AC8B552745495C00393615 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		C1AC8B5727454BAE00393615 /* NetworkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApi.swift; sourceTree = "<group>"; };
+		C1F1B8382743E3FA00782860 /* Graffit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graffit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F1B83B2743E3FA00782860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1F1B83D2743E3FA00782860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1F1B83F2743E3FA00782860 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		C1F1B8422743E3FA00782860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1F1B8452743E3FA00782860 /* Graffit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Graffit.xcdatamodel; sourceTree = "<group>"; };
+		C1F1B8472743E3FC00782860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1F1B84A2743E3FC00782860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1F1B84C2743E3FC00782860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F1B8512743E3FC00782860 /* GraffitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraffitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F1B8552743E3FC00782860 /* GraffitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraffitTests.swift; sourceTree = "<group>"; };
+		C1F1B85B2743E3FC00782860 /* GraffitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraffitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F1B85F2743E3FC00782860 /* GraffitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraffitUITests.swift; sourceTree = "<group>"; };
+		C1F1B8612743E3FC00782860 /* GraffitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraffitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1F1B8352743E3FA00782860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124DE4E8693A6CD1049A604D /* Pods_Graffit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1B84E2743E3FC00782860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF17E3CDA6D6A6E619C7A982 /* Pods_GraffitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1B8582743E3FC00782860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E792F7CE6FCF623325F1FC14 /* Pods_Graffit_GraffitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AE96B30EBEDD6BEEF75B486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74A03E0E80A6696511E334AD /* Pods_Graffit.framework */,
+				80A3508AA062428BF9A8F47B /* Pods_Graffit_GraffitUITests.framework */,
+				40A468141746054E17325CC6 /* Pods_GraffitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		603AF00FA3A392091F8A17AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9873B7A4884CAC32262146A8 /* Pods-Graffit.debug.xcconfig */,
+				10033D4EFDB04B5B3E106128 /* Pods-Graffit.release.xcconfig */,
+				5763A5393D520B72D2455F40 /* Pods-Graffit-GraffitUITests.debug.xcconfig */,
+				2BC76C456BF6BB7607921982 /* Pods-Graffit-GraffitUITests.release.xcconfig */,
+				ABF87DC5FB726CE40A5564AE /* Pods-GraffitTests.debug.xcconfig */,
+				581EBBC14E51A62B5969B79C /* Pods-GraffitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C156864C274566620026C0AA /* NetworkResponse */ = {
+			isa = PBXGroup;
+			children = (
+				C156864D274566750026C0AA /* Model */,
+			);
+			path = NetworkResponse;
+			sourceTree = "<group>";
+		};
+		C156864D274566750026C0AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C156864E274566A00026C0AA /* СharacterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1568650274567920026C0AA /* ModelOffline */ = {
+			isa = PBXGroup;
+			children = (
+				C1568653274567D00026C0AA /* CharModel.swift */,
+			);
+			path = ModelOffline;
+			sourceTree = "<group>";
+		};
+		C15686592745AD5A0026C0AA /* CharCell */ = {
+			isa = PBXGroup;
+			children = (
+				C156865A2745AD630026C0AA /* Model */,
+				C156865B2745AD800026C0AA /* CharCell.swift */,
+				C156865C2745AD800026C0AA /* CharCell.xib */,
+			);
+			path = CharCell;
+			sourceTree = "<group>";
+		};
+		C156865A2745AD630026C0AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C15686572745AD1B0026C0AA /* CharCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1AC8B2A2743F75700393615 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC8B2F27444EB600393615 /* abosanovabold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C1AC8B3327445A4200393615 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC8B3C27445CF300393615 /* Button */,
+				C1AC8B4D27446A5E00393615 /* Label */,
+				C1F1B8412743E3FA00782860 /* Main.storyboard */,
+				C1F1B8492743E3FC00782860 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1AC8B3C27445CF300393615 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC8B3427445A6000393615 /* CreateButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		C1AC8B3F27445E8F00393615 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1B83F2743E3FA00782860 /* MenuVC.swift */,
+				C1AC8B312744528900393615 /* CreateTeamVC.swift */,
+				C1AC8B3D27445E8600393615 /* EditTeamVC.swift */,
+				C1AC8B4227445FBC00393615 /* ViewTeamVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C1AC8B4027445EA800393615 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC8B3827445C1000393615 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C1AC8B4127445ED900393615 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1B83B2743E3FA00782860 /* AppDelegate.swift */,
+				C1F1B83D2743E3FA00782860 /* SceneDelegate.swift */,
+				C1F1B8472743E3FC00782860 /* Assets.xcassets */,
+				C1F1B84C2743E3FC00782860 /* Info.plist */,
+				C1F1B8442743E3FA00782860 /* Graffit.xcdatamodeld */,
+				C1AC8B2A2743F75700393615 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C1AC8B442744645100393615 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C15686592745AD5A0026C0AA /* CharCell */,
+				C1AC8B452744645700393615 /* TeamCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C1AC8B452744645700393615 /* TeamCell */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC8B4A2744647D00393615 /* Model */,
+				C1AC8B462744647000393615 /* TeamCell.swift */,
+				C1AC8B472744647000393615 /* TeamCell.xib */,
+			);
+			path = TeamCell;
+			sourceTree = "<group>";
+		};
+		C1AC8B4A2744647D00393615 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC8B4B2744673400393615 /* TeamCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1AC8B4D27446A5E00393615 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC8B4E27446A7000393615 /* MenuLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		C1AC8B50274548EC00393615 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C1568650274567920026C0AA /* ModelOffline */,
+				C156864C274566620026C0AA /* NetworkResponse */,
+				C1AC8B51274548F900393615 /* NetworkRequest */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		C1AC8B51274548F900393615 /* NetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC8B522745490800393615 /* Base */,
+				C1AC8B5727454BAE00393615 /* NetworkApi.swift */,
+			);
+			path = NetworkRequest;
+			sourceTree = "<group>";
+		};
+		C1AC8B522745490800393615 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC8B532745491B00393615 /* BaseRequestProtocol.swift */,
+				C1AC8B552745495C00393615 /* BaseRequest.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C1F1B82F2743E3FA00782860 = {
+			isa = PBXGroup;
+			children = (
+				C1F1B83A2743E3FA00782860 /* Graffit */,
+				C1F1B8542743E3FC00782860 /* GraffitTests */,
+				C1F1B85E2743E3FC00782860 /* GraffitUITests */,
+				C1F1B8392743E3FA00782860 /* Products */,
+				603AF00FA3A392091F8A17AD /* Pods */,
+				4AE96B30EBEDD6BEEF75B486 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1F1B8392743E3FA00782860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1B8382743E3FA00782860 /* Graffit.app */,
+				C1F1B8512743E3FC00782860 /* GraffitTests.xctest */,
+				C1F1B85B2743E3FC00782860 /* GraffitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F1B83A2743E3FA00782860 /* Graffit */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC8B50274548EC00393615 /* NetworkLayer */,
+				C1AC8B442744645100393615 /* Cells */,
+				C1AC8B4127445ED900393615 /* Resources */,
+				C1AC8B4027445EA800393615 /* Constants */,
+				C1AC8B3F27445E8F00393615 /* Controllers */,
+				C1AC8B3327445A4200393615 /* View */,
+			);
+			path = Graffit;
+			sourceTree = "<group>";
+		};
+		C1F1B8542743E3FC00782860 /* GraffitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1B8552743E3FC00782860 /* GraffitTests.swift */,
+			);
+			path = GraffitTests;
+			sourceTree = "<group>";
+		};
+		C1F1B85E2743E3FC00782860 /* GraffitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1B85F2743E3FC00782860 /* GraffitUITests.swift */,
+				C1F1B8612743E3FC00782860 /* GraffitUITestsLaunchTests.swift */,
+			);
+			path = GraffitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1F1B8372743E3FA00782860 /* Graffit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F1B8652743E3FC00782860 /* Build configuration list for PBXNativeTarget "Graffit" */;
+			buildPhases = (
+				42D4FBBCE76FB1CBAE74EAEC /* [CP] Check Pods Manifest.lock */,
+				C1F1B8342743E3FA00782860 /* Sources */,
+				C1F1B8352743E3FA00782860 /* Frameworks */,
+				C1F1B8362743E3FA00782860 /* Resources */,
+				86DC710AE57196848E0662C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Graffit;
+			productName = Graffit;
+			productReference = C1F1B8382743E3FA00782860 /* Graffit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1F1B8502743E3FC00782860 /* GraffitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F1B8682743E3FC00782860 /* Build configuration list for PBXNativeTarget "GraffitTests" */;
+			buildPhases = (
+				BC4B6CA4960186566878D767 /* [CP] Check Pods Manifest.lock */,
+				C1F1B84D2743E3FC00782860 /* Sources */,
+				C1F1B84E2743E3FC00782860 /* Frameworks */,
+				C1F1B84F2743E3FC00782860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1F1B8532743E3FC00782860 /* PBXTargetDependency */,
+			);
+			name = GraffitTests;
+			productName = GraffitTests;
+			productReference = C1F1B8512743E3FC00782860 /* GraffitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1F1B85A2743E3FC00782860 /* GraffitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F1B86B2743E3FC00782860 /* Build configuration list for PBXNativeTarget "GraffitUITests" */;
+			buildPhases = (
+				50698AECDFF111252A5A1F78 /* [CP] Check Pods Manifest.lock */,
+				C1F1B8572743E3FC00782860 /* Sources */,
+				C1F1B8582743E3FC00782860 /* Frameworks */,
+				C1F1B8592743E3FC00782860 /* Resources */,
+				82C044CE74494C72D47D4E7A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1F1B85D2743E3FC00782860 /* PBXTargetDependency */,
+			);
+			name = GraffitUITests;
+			productName = GraffitUITests;
+			productReference = C1F1B85B2743E3FC00782860 /* GraffitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1F1B8302743E3FA00782860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C1F1B8372743E3FA00782860 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C1F1B8502743E3FC00782860 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C1F1B8372743E3FA00782860;
+					};
+					C1F1B85A2743E3FC00782860 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C1F1B8372743E3FA00782860;
+					};
+				};
+			};
+			buildConfigurationList = C1F1B8332743E3FA00782860 /* Build configuration list for PBXProject "Graffit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1F1B82F2743E3FA00782860;
+			productRefGroup = C1F1B8392743E3FA00782860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F1B8372743E3FA00782860 /* Graffit */,
+				C1F1B8502743E3FC00782860 /* GraffitTests */,
+				C1F1B85A2743E3FC00782860 /* GraffitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1F1B8362743E3FA00782860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F1B84B2743E3FC00782860 /* LaunchScreen.storyboard in Resources */,
+				C1AC8B492744647000393615 /* TeamCell.xib in Resources */,
+				C1F1B8482743E3FC00782860 /* Assets.xcassets in Resources */,
+				C156865E2745AD800026C0AA /* CharCell.xib in Resources */,
+				C1AC8B3027444EB600393615 /* abosanovabold.ttf in Resources */,
+				C1F1B8432743E3FA00782860 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1B84F2743E3FC00782860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1B8592743E3FC00782860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42D4FBBCE76FB1CBAE74EAEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Graffit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50698AECDFF111252A5A1F78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Graffit-GraffitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82C044CE74494C72D47D4E7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Graffit-GraffitUITests/Pods-Graffit-GraffitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Graffit-GraffitUITests/Pods-Graffit-GraffitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Graffit-GraffitUITests/Pods-Graffit-GraffitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86DC710AE57196848E0662C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Graffit/Pods-Graffit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Graffit/Pods-Graffit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Graffit/Pods-Graffit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4B6CA4960186566878D767 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraffitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F1B8342743E3FA00782860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AC8B562745495C00393615 /* BaseRequest.swift in Sources */,
+				C1AC8B4C2744673400393615 /* TeamCellModel.swift in Sources */,
+				C156865D2745AD800026C0AA /* CharCell.swift in Sources */,
+				C1F1B8402743E3FA00782860 /* MenuVC.swift in Sources */,
+				C156864F274566A00026C0AA /* СharacterModel.swift in Sources */,
+				C1AC8B4327445FBC00393615 /* ViewTeamVC.swift in Sources */,
+				C15686582745AD1B0026C0AA /* CharCellModel.swift in Sources */,
+				C1568654274567D00026C0AA /* CharModel.swift in Sources */,
+				C1AC8B5827454BAE00393615 /* NetworkApi.swift in Sources */,
+				C1AC8B3E27445E8600393615 /* EditTeamVC.swift in Sources */,
+				C1AC8B3527445A6000393615 /* CreateButton.swift in Sources */,
+				C1AC8B542745491B00393615 /* BaseRequestProtocol.swift in Sources */,
+				C1AC8B4F27446A7000393615 /* MenuLabel.swift in Sources */,
+				C1F1B83C2743E3FA00782860 /* AppDelegate.swift in Sources */,
+				C1F1B83E2743E3FA00782860 /* SceneDelegate.swift in Sources */,
+				C1AC8B482744647000393615 /* TeamCell.swift in Sources */,
+				C1AC8B322744528900393615 /* CreateTeamVC.swift in Sources */,
+				C1F1B8462743E3FA00782860 /* Graffit.xcdatamodeld in Sources */,
+				C1AC8B3927445C1000393615 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1B84D2743E3FC00782860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F1B8562743E3FC00782860 /* GraffitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1B8572743E3FC00782860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F1B8622743E3FC00782860 /* GraffitUITestsLaunchTests.swift in Sources */,
+				C1F1B8602743E3FC00782860 /* GraffitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1F1B8532743E3FC00782860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1F1B8372743E3FA00782860 /* Graffit */;
+			targetProxy = C1F1B8522743E3FC00782860 /* PBXContainerItemProxy */;
+		};
+		C1F1B85D2743E3FC00782860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1F1B8372743E3FA00782860 /* Graffit */;
+			targetProxy = C1F1B85C2743E3FC00782860 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1F1B8412743E3FA00782860 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F1B8422743E3FA00782860 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1F1B8492743E3FC00782860 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F1B84A2743E3FC00782860 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1F1B8632743E3FC00782860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1F1B8642743E3FC00782860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1F1B8662743E3FC00782860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9873B7A4884CAC32262146A8 /* Pods-Graffit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9ANSYRAZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Graffit/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = averpovskii.Graffit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1F1B8672743E3FC00782860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10033D4EFDB04B5B3E106128 /* Pods-Graffit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9ANSYRAZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Graffit/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = averpovskii.Graffit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1F1B8692743E3FC00782860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF87DC5FB726CE40A5564AE /* Pods-GraffitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9ANSYRAZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = averpovskii.GraffitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Graffit.app/Graffit";
+			};
+			name = Debug;
+		};
+		C1F1B86A2743E3FC00782860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 581EBBC14E51A62B5969B79C /* Pods-GraffitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9ANSYRAZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = averpovskii.GraffitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Graffit.app/Graffit";
+			};
+			name = Release;
+		};
+		C1F1B86C2743E3FC00782860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5763A5393D520B72D2455F40 /* Pods-Graffit-GraffitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9ANSYRAZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = averpovskii.GraffitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Graffit;
+			};
+			name = Debug;
+		};
+		C1F1B86D2743E3FC00782860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC76C456BF6BB7607921982 /* Pods-Graffit-GraffitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9ANSYRAZF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = averpovskii.GraffitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Graffit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1F1B8332743E3FA00782860 /* Build configuration list for PBXProject "Graffit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F1B8632743E3FC00782860 /* Debug */,
+				C1F1B8642743E3FC00782860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F1B8652743E3FC00782860 /* Build configuration list for PBXNativeTarget "Graffit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F1B8662743E3FC00782860 /* Debug */,
+				C1F1B8672743E3FC00782860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F1B8682743E3FC00782860 /* Build configuration list for PBXNativeTarget "GraffitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F1B8692743E3FC00782860 /* Debug */,
+				C1F1B86A2743E3FC00782860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F1B86B2743E3FC00782860 /* Build configuration list for PBXNativeTarget "GraffitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F1B86C2743E3FC00782860 /* Debug */,
+				C1F1B86D2743E3FC00782860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1F1B8442743E3FA00782860 /* Graffit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1F1B8452743E3FA00782860 /* Graffit.xcdatamodel */,
+			);
+			currentVersion = C1F1B8452743E3FA00782860 /* Graffit.xcdatamodel */;
+			path = Graffit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C1F1B8302743E3FA00782860 /* Project object */;
+}
